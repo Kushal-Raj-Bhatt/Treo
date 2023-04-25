@@ -1,0 +1,316 @@
+:root{
+	--button-color: #5542F6;
+	--sidebar-color: #1B224E;
+	--dark-text: #2E2C34;
+	--light-text: #84818A;
+	--delete-color: #FA2256;
+	--ms-color: #FFD0DB;
+	--body-color: #F4F4F5;
+	--ds-color: #D3D9EA;
+	--label: #504F54;
+    --one: #818181;
+    --span: #8A9094;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+ol, ul{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+}
+body{
+	font-family: Manrope,sans-serif;
+	background-color:var(--body-color) ;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Manrope,sans-serif;
+}
+p{
+	font-family: Manrope,sans-serif;
+	margin-bottom: 0;
+}
+span{
+	font-family: Manrope,sans-serif;
+}
+label{
+  font-family: Manrope,sans-serif;
+}
+
+/*dashboard css start*/
+.treo_wrapper {
+    display: flex;
+}
+.treo_wrapper .treo_nav_bar{
+	background-color: var(--sidebar-color);
+	list-style: none;
+	min-height: 100vh;
+}
+@media (min-width: 768px){
+.treo_wrapper .treo_nav_bar{
+    background-color: var(--sidebar-color);
+    width: 6.25rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    height: 100%;
+}
+/* width */
+.treo_wrapper .treo_nav_bar::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.treo_wrapper .treo_nav_bar::-webkit-scrollbar-track {
+  background:  #fff; 
+}
+ 
+/* Handle */
+.treo_wrapper .treo_nav_bar::-webkit-scrollbar-thumb {
+  background: var(--button-color); 
+}
+
+/* Handle on hover */
+.treo_wrapper .treo_nav_bar::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+  
+    .main_content {
+        width: 100%;
+        margin-left: 6.25rem;
+    }
+
+}
+
+.treo_nav_bar a.treo-brand{
+    text-decoration: none;
+    text-align: center;      
+}
+
+.treo_nav_bar a.treo-brand img {
+    width: 98%;
+    padding: 1rem .75rem 1.3rem;
+    background: #1B224E 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	border: 1px solid #00000000;
+	opacity: 1; 
+	/*height: 4.375rem;*/
+}
+li.treo_nav_item {
+    text-align: center;
+    margin: 1.125rem 0;
+    position: relative;
+    padding: 0 0.5rem;
+}
+a.treo_nav_link {
+    text-decoration: none;
+    color: var(--ds-color);
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+a.treo_nav_link img {
+    margin-bottom: 0.313rem;
+}
+.main_content {
+    width: 100%;
+    /*overflow-x: hidden;*/
+}
+.left_topnav span:nth-child(1){
+	color: var(--light-text);
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+.left_topnav span:nth-child(2){
+	color: var(--dark-text);
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+.left_topnav span:nth-child(2) a {
+    color: var(--dark-text);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+nav.treo_topnav {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.375rem;
+    padding: 0 2rem 0 2.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+.profile_nav {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #EBEAED;
+	border-radius: 4px;
+	opacity: 1;
+}
+.profile_nav p{
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--dark-text);
+  padding-right: 2rem;
+}
+.profile_nav span{
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--light-text);
+  display: block;
+}
+.profile_nav .btn-secondary:hover {
+    color: var(--dark-text);
+    background-color: transparent;
+    border-color: transparent;
+}
+.profile_nav .btn-secondary {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--dark-text);
+}
+.profile_nav .btn-check:active+.btn-secondary:focus, .btn-check:checked+.btn-secondary:focus, .btn-secondary.active:focus, .btn-secondary:active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+    border: none;
+}
+.profile_nav .btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.profile_nav .dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: var(--button-color);
+}
+.profile_nav .dropdown-menu{
+	width: 100%;
+}
+.profile_nav .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    color: var(--light-text);
+}
+.treo_cards{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border-radius: 8px;
+	opacity: 1;
+	margin-top: 1.188rem;
+	margin-bottom: 2.625rem;
+	margin-left: 1.313rem;
+	margin-right: 2rem;
+	padding: 1.704rem 6.688rem 12.469rem 1.188rem;
+}
+
+
+li.treo_nav_item.active {
+    background-color: var(--button-color);
+    margin: 0 0.3rem;
+    padding: 0.5rem 0;
+    border-radius: 8px;
+    color: #fff;
+}
+
+
+.right_topnav {
+    display: flex;
+    align-items: center;
+    gap: 2.125rem;
+}
+.line_icons_treo {
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+    cursor: pointer;
+}
+ .card_tabs_treo ul.nav.nav-pills.mb-3 {
+    border-bottom: 1px solid #eee;
+    margin-top: 1.938rem;
+}
+.card_tabs_treo .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--dark-text) !important;
+    border-bottom: 2px solid var(--button-color);
+    border-radius: 0px;
+    background-color: transparent;
+    font-size: 0.813rem;
+    font-weight: 600;
+}
+
+img.bell-active {
+    margin-top: -5px;
+}
+
+
+/*Mobile css code*/
+@media (max-width: 767px){
+.treo_wrapper .treo_nav_bar{
+	background-color: var(--sidebar-color);
+	width: 6.25rem;
+	overflow: visible;
+}
+.card_tabs_treo ul.nav.nav-pills.mb-3 {
+    padding-bottom: 1rem;
+}
+.line_icons_treo {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    cursor: pointer;
+}
+.right_topnav {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+nav.treo_topnav {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.375rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.card_tops {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .75rem;
+}
+.treo_nav_bar{
+	display: none;
+}
+.d_nonemobile{
+	display: none;
+}
+}
+
+.left_topnav {
+    width: 20%;
+}
+

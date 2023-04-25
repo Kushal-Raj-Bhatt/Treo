@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Iconly_Bulk_Category" data-name="Iconly/Bulk/Category" transform="translate(-0.5)">
+    <rect id="Iconly_Bulk_Category_Background_" data-name="Iconly/Bulk/Category (Background)" width="20" height="20" transform="translate(0.5)" fill="none"/>
+    <g id="laptop-fill" transform="translate(0.5 -0.4)">
+      <path id="Path_417" data-name="Path 417" d="M2,14.8a.8.8,0,0,1,.8-.8H17.2a.8.8,0,0,1,.8.8v1.6a2.4,2.4,0,0,1-2.4,2.4H4.4A2.4,2.4,0,0,1,2,16.4Zm1.6.8v.8a.8.8,0,0,0,.8.8H15.6a.8.8,0,0,0,.8-.8v-.8Z" transform="translate(0 -2)" fill="#d3d9ea" fill-rule="evenodd"/>
+      <path id="Path_418" data-name="Path 418" d="M3,12V6.4A2.4,2.4,0,0,1,5.4,4H15a2.4,2.4,0,0,1,2.4,2.4V12Z" transform="translate(-0.2)" fill="rgba(211,217,234,0.4)" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

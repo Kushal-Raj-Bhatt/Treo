@@ -1,0 +1,580 @@
+.patients_s4 .treo_cards_one {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0;
+    opacity: 1;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 1.125rem;
+    padding: 1.438rem 0rem 3rem 0rem;
+    height: 100%;
+}
+.patients_s4 .treo_cards_two {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 1.188rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    padding: 0.4rem 1.188rem 0.4rem 1.375rem;
+}
+.patients_s4 .treo_cards_one h1{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #2E2C34;
+    line-height: 22px;
+}
+.patients_s4 .treo_cards_one .texts4{
+    padding: 0rem 1.188rem 0rem 1.375rem;
+}
+.patients_s4 .treo_cards_one .treo_tabs4{
+    margin-top: 1.625rem;
+}
+.patients_s4 .treo_cards_one .treo_tabs4 .tabs4_click{
+  font-size: 0.813rem;
+  color: #84818A;
+  font-weight: 600;
+  line-height: 18px;
+  cursor: pointer;
+  padding-bottom: 0.875rem;
+  border-bottom: 2px solid #E0E0E0;
+}
+.patients_s4 .treo_cards_one .treo_tabs4 .tabs4_click.active{
+  font-size: 0.813rem;
+  color: #2E2C34;
+  font-weight: 600;
+  line-height: 18px;
+  border-bottom: 2px solid #5542F6;
+}
+.patients_s4 .treo_cards_one .treo_tabs4 p.allpatientsone{
+  background-color: #EBEAED;
+  padding: 0.438rem 1.406rem;
+  font-weight: 600;
+  font-size: 0.813rem;
+  line-height: 18px;
+  color: #2E2C34;
+}
+.patients_s4 .treo_cards_one .allpatients_content .allpatients_data{
+    padding-right: 0.438rem;
+}
+.patients_s4 .treo_cards_one .allpatients_content .allpatients_data .allpatients_records .allpatients_id p{
+  color: #2E2C34;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+.patients_s4 .treo_cards_one .allpatients_content .allpatients_data .allpatients_records .allpatients_name p{
+    color: #2E2C34;
+    font-size: 0.938rem;
+    font-weight: 600;
+    line-height: 20px;
+}
+.patients_s4 .treo_cards_one .allpatients_content .allpatients_data .allpatients_records .allpatients_name span{
+    color: #89878D;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 22px;
+}
+.patients_s4 .treo_cards_one .allpatients_content .allpatients_data .allpatients_records {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 1.25rem;
+}
+
+.patients_s4 .treo_cards_one .allpatients_content .allpatients_data div.allpatients_records:nth-last-child(2){
+    border-bottom: none;
+}
+
+.patients_s4 .treo_cards_two .tow_inner .inner_bp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.patients_s4 .treo_cards_two .tow_inner .inner_bp .bp_one p{
+   font-size: 0.875rem;
+   color: #2E2C34;
+   font-weight: 600;
+   line-height: 22px;
+}
+.patients_s4 .treo_cards_two .tow_inner .name_pic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.patients_s4 .treo_cards_two .tow_inner .view_profile_btn button.vp_button{
+    background: transparent;
+    color: #5542F6;
+    border: 1px solid #5542F6;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 20px;
+    padding: .6rem 1rem;
+
+}
+.patients_s4 .view_profile_btn button.vp_button{
+    background: transparent;
+    color: #5542F6;
+    border: 1px solid #5542F6;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 20px;
+    padding: .6rem 1.5rem;
+
+}
+.patients_s4 .treo_cards_two.next .view_profile_btn.text-start {
+    margin: 1rem 0;
+}
+.patients_s4 .name_inner p{
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2E2C34;
+  line-height: 22px;
+}
+.patients_s4 .name_inner p span{
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #89878D;
+  line-height: 22px;
+}
+.patients_s4 .name_inner span{
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #89878D;
+  line-height: 22px;
+}
+.patients_s4 .treo_cards_two.mr_16{
+    margin-right: 1rem !important;
+}
+.patients_s4 .grid4_patients{
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 6px #00000029;
+   opacity: 1;
+   margin-bottom: 2.5rem;
+}
+.patients_s4 .grid4_date p {
+    font-size: 0.813rem;
+    font-weight: 600;
+    color: #2E2C34;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.patients_s4 .grid4_text{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 0.844rem;
+}
+.patients_s4 .grid4_text p{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #2E2C34;
+    line-height: 20px;  
+}
+.patients_s4 .grid4_text p span{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #89878D;
+    line-height: 20px;
+}
+.patients_s4 .grid4_text span{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #89878D;
+    line-height: 20px;
+}
+/*.grid4_patients{
+  padding-left: 1.188rem;
+}*/
+.patients_s4 .dr_info{
+    padding-left: 1.188rem
+}
+.patients_s4 .grid4_date{
+    border-right: 1px solid #E0E0E0;
+    height: 100%;
+}
+.patients_s4 .bd_b{
+    border-bottom: 1px solid #E0E0E0;
+}
+.patients_s4 .ms{
+    background-color: #FFD0DB;
+    border-radius: 100vmax;
+    width: 2.813rem;
+    height: 2.813rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -.75rem;
+    font-size: 0.875rem;
+    color: #2E2C34;
+    line-height: 20px;
+    font-weight: 500;
+}
+.patients_s4 .tt_heading h3{
+    font-weight: 800;
+    font-size: 0.875rem;
+    color: #2E2C34;
+    line-height: 20px;
+    /*padding-left: 1.188rem;*/
+    padding-top: 1.375rem;
+}
+.patients_s4 .patients_data_4{
+    padding: 0 1.188rem;
+}
+.patients_s4 .vital_table table{
+    margin-bottom: 0;
+}
+.patients_s4 .vital_table table thead{
+    border-bottom: 1px solid #E0E0E0;
+}
+.patients_s4 .vital_table table thead th{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #89878D;
+    line-height: 20px;
+    padding-left: 0;
+}
+.patients_s4 .vital_table table tbody td{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #2E2C34;
+    line-height: 20px;
+    padding-left: 0;
+}
+.patients_s4 .vital_table table tbody td img{
+    cursor: pointer;
+}
+.patients_s4 .dot_bd{
+    border-left: 1px dashed #89878D;
+    height: 100px;
+}
+.patients_s4 .clinical_notes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3.5rem;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+}
+.patients_s4 .clinical_notes .clinical_notes_one{
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 20px;
+    color: #2E2C34;
+    flex: .3;
+}
+.patients_s4 .clinical_notes .clinical_notes_two{
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 20px;
+    color: #2E2C34;
+    flex: 1;
+}
+.patients_s4 .clinical_notes .clinical_notes_two ul li{
+    padding: .2rem 0;
+}
+.patients_s4 .medical_history h3{
+    color: #2E2C34;
+    font-size: 0.813rem;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: .6rem;
+
+}
+.peanut_allergy p{
+    font-weight: 600;
+    font-size: .75rem;
+    color: #2E2C34;
+    line-height: 20px;
+    margin-top: 1.25rem;
+}
+.peanut_allergy a{
+    font-weight: 600;
+    font-size: .75rem;
+    color: #5542F6;
+    line-height: 20px;
+}
+
+.patients_s4 .treo_cards_one .recent_content .recent_data{
+    padding-right: 0.438rem;
+}
+.patients_s4 .treo_cards_one .recent_content .recent_data .recents_records .recent_id p{
+  color: #2E2C34;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+ .recent_id p{
+  color: #2E2C34;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.patients_s4 .treo_cards_one .recent_content .recent_data .recent_records .recent_name p{
+    color: #2E2C34;
+    font-size: 0.938rem;
+    font-weight: 600;
+    line-height: 20px;
+}
+.patients_s4 .treo_cards_one .recent_content .recent_data .recent_records .recent_name span{
+    color: #89878D;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 22px;
+}
+.patients_s4 .treo_cards_one .recent_content .recent_data .recent_records {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 1.25rem;
+}
+
+.patients_s4 .treo_cards_one .allpatients_content .recent_data div.recent_records:nth-last-child(2){
+    border-bottom: none;
+}
+.patients_s4 .header_search .form-control{
+    border: 1px solid #EBEAED;
+    background-color: #FBFAFC;
+    border: .25rem;
+}
+.patients_s4 .header_search form img{
+    position: absolute;
+    right: 10px;
+    bottom: 9px;
+}
+.patients_s4 .header_search input.form-control::placeholder{
+    font-size: 0.875rem;
+    color: #84818A;
+    font-weight: 500;
+}
+.patients_s4 .header_search input.form-control{
+    color: var(--dark-text);
+    font-size: 0.875rem;
+    line-height: 20px;
+    font-weight: 600;
+}
+.patients_s4 .popup_td{
+   background-color: #fff;
+  box-shadow: 0px 3px 22px #00000047;
+  border: 1px solid #DFDFDF;
+  opacity: 1;
+  padding: .5rem;
+  margin-left: 1.5rem;
+  margin-top: -1.7rem;
+  position: relative;
+  width: 8.938rem;
+}
+.patients_s4 img.blue_i:hover + span .popup_td{
+  display: block;
+}
+.patients_s4 .popup_td p{
+    color: #2E2C34;
+    font-weight: 500;
+    font-size: .75rem;
+}
+.patients_s4 .popup_td:before{
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 15%;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+    clear: both;
+    transform: rotate(90deg);
+
+}
+{
+
+}
+.patients_s4 .suggestions4 h3{
+    color: #2E2C34;
+    font-size: 0.813rem;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 1rem;
+
+}
+.patients_s4 .add_disease p{
+  font-size: .75rem;
+  font-weight: 600;
+  color: #89878D;
+  line-height: 20px;
+  padding: .5rem 0rem;
+}
+.patients_s4 .add_disease{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0rem 0rem;
+}
+.patients_s4 .add_disease:hover{
+    background: #eee;
+}
+
+.patients_s4 p.ms.two_ms {
+    position: absolute;
+    bottom: 2.188rem;
+}
+.patients_s4 .dot_bd {
+    overflow-y: hidden;
+    border-left: 1px dashed #89878D;
+    height: 91%;
+    position: absolute;
+    left: 20%;
+    transform: translateX(-20%);
+}
+
+@media (max-width:  991px){
+    .patients_s4 .treo_cards_one {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0;
+    opacity: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 2em;
+    padding: 1.438rem 0rem 3rem 0rem;
+    height: 100%;
+}
+.patients_s4 .treo_cards_two {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    padding: 0.4rem 1.188rem 3rem 1.375rem;
+}
+.left_topnav {
+    flex: .9;
+}
+}
+.left_topnav {
+    width: 20%;
+}
+.vital_table {
+    overflow: auto;
+}
+
+@media (min-width: 992px){
+.patients_s4 .allpatients_content {
+    height: 100%;
+    overflow-y: scroll;
+    position: absolute;
+    padding-bottom: 12rem;
+    width: 100%;
+}
+.patients_s4 .fixed_me{
+   position: fixed;
+   width: 22%;
+}
+.patients_s4 .recent_content{
+    height: 100%;
+    overflow-y: scroll;
+    position: absolute;
+    padding-bottom: 12rem;
+    width: 100%;
+}
+/* width */
+.patients_s4 .treo_cards_one .recent_content::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.patients_s4 .treo_cards_one .recent_content::-webkit-scrollbar-track {
+  background:  #E8E8E8; 
+}
+ 
+/* Handle */
+.patients_s4 .treo_cards_one .recent_content::-webkit-scrollbar-thumb {
+  background: #A2A2A2; 
+}
+
+/* Handle on hover */
+.patients_s4 .treo_cards_one .recent_content::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* width */
+.patients_s4 .treo_cards_one .allpatients_content::-webkit-scrollbar {
+  width: 3px;
+}
+
+
+/* Track */
+.patients_s4 .treo_cards_one .allpatients_content::-webkit-scrollbar-track {
+  background:  #E8E8E8; 
+}
+ 
+/* Handle */
+.patients_s4 .treo_cards_one .allpatients_content::-webkit-scrollbar-thumb {
+  background: #A2A2A2; 
+}
+
+/* Handle on hover */
+.patients_s4 .treo_cards_one .allpatients_content::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+}
+
+.patients_s4 button.btn.btn-secondary.dropdown-toggle.vp_button{
+    padding: 0.6rem 0.9rem;
+}
+
+
+.patients_s4 .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+        border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    /*background-image: url('../images/arrow_down_blue.svg');*/
+}
+.patients_s4 button.btn.btn-secondary.dropdown-toggle.vp_button:focus {
+    background-color: var(--button-color);
+    color: #fff;
+}
+.patients_s4 ul.dropdown-menu.show{
+    border: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    
+}
+.patients_s4 ul.dropdown-menu.show .dropdown-item{
+    font-size: 0.813rem;
+    font-weight: 500;
+    color: #89878D;
+}
+.patients_s4 ul.dropdown-menu.show .dropdown-item:hover{
+    font-size: 0.813rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media (min-width: 1440px){
+    .patients_s4 .dot_bd {
+    overflow-y: hidden;
+    border-left: 1px dashed #89878D;
+    height: 91%;
+    position: absolute;
+    left: 15%;
+    transform: translateX(-15%);
+}
+}
+@media (min-width: 768px) and (max-width:  1024px){
+    .patients_s4 .treo_cards_two.mr_16 {
+    margin-right: 2rem !important;
+}
+}

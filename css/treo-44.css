@@ -1,0 +1,159 @@
+.practice_details .treo_cards {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 1.188rem;
+    margin-bottom: 2.625rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1.704rem 1.188rem 3rem 1.188rem;
+}
+@media (max-width: 767px){
+	.practice_details .treo_cards {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 1.188rem;
+    margin-bottom: 2.625rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1.704rem 1.188rem 3rem 1.188rem;
+}
+}
+.practice_details .leftsettreo_cards{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px;
+    opacity: 1;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding: 1.704rem .5rem 3rem .5rem;
+    height: 100%;
+}
+.practice_details .treo_cards h1 {
+    font-size: 1.75rem;
+    color: var(--dark-text);
+    font-weight: 600;
+    line-height: 40px;
+}
+.practice_details .treo_cards .form-label {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--label);
+    line-height: 20px;
+    font-weight: 500;
+}
+.practice_details .treo_cards .form-control {
+    color: var(--dark-text);
+    font-size: 0.875rem;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 0.7rem 1rem;
+    border: 1px solid #EBEAED;
+}
+.practice_details .treo_cards .form-select {
+    color: var(--dark-text);
+    font-size: 0.875rem;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 0.7rem 1rem;
+    border: 1px solid #EBEAED;
+}
+.practice_details .treo_cards .form-control::placeholder{
+	color: var(--light-text);
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.practice_details .treo_cards .btn-secondary{
+	background-color: transparent;
+	border: 1px solid var(--button-color);
+	color: var(--button-color);
+	padding: .4rem 1rem;
+	border-radius: 0.25rem;
+	margin-left: 0.625rem !important;
+}
+.practice_details .treo_cards .btn-secondary:hover{
+	background-color: transparent;
+	border: 1px solid var(--button-color);
+	color: var(--button-color);
+}
+.practice_details .treo_cards .btn-primary{
+	background-color: var(--button-color);
+	padding: .4rem 1rem;
+	color: #FBFAFC;
+	border: 1px solid var(--button-color);
+	border-radius: 0.25rem;
+}
+.practice_details .mt_9{
+	margin-top: 0.563rem;
+
+}
+.practice_details .mt_31{
+	margin-top: 1.938rem;
+
+}
+.practice_details .mt_39{
+	margin-top: 2.438rem;
+
+}
+.practice_details .treo_cards span.required_red {
+    color: red;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0
+}
+.leftsettreo_cards h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--dark-text);
+    line-height: 48px;
+    margin-bottom: 0;
+}
+.leftsettreo_cards span{
+    color: var(--light-text);
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 20px;
+}
+.treo_setting_nav ul{
+    list-style: none;
+    margin-top: 1.875rem;
+}
+.treo_setting_nav ul li{
+    padding: 0.469rem 0 0.469rem 1.375rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 0.469rem;
+}
+.treo_setting_nav ul li.active{
+    background: #5542F61A;
+    border-radius: 0.25rem;
+}
+.treo_setting_nav ul li a{
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--dark-text);
+    line-height: 20px;
+    text-decoration: none;
+    margin: 0;
+}
+.treo_setting_nav ul li a span{
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--dark-text);
+    line-height: 20px;
+    text-decoration: none;
+    margin-left: 1.125rem;
+}
+.treo_setting_nav ul li a img{
+    width: 1.25rem;
+    height: 1.25rem;
+}

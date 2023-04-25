@@ -1,0 +1,103 @@
+.treo-23{
+	height: 100%;
+	width: 100%;
+}
+.treo-23 .treo_video_call .inner_video_call .video_show {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.treo-23 .treo_video_call .inner_video_call .video_show p{
+	color: #fff;
+	font-size: 1.375rem;
+	font-weight: 600;
+	line-height: 30px;
+}
+.treo-23 .treo_video_call .inner_video_call .video_text{
+	background-color: #fff;
+	text-align: center;
+	padding: 0 2rem;
+}
+.treo-23 .treo_video_call .inner_video_call .main_video_text{
+	height: 100vh;
+	background-color: #fff;
+}
+.treo-23 .overflow-x-h{
+	overflow-x: hidden;
+}
+.treo-23 .treo_video_call .inner_video_call .video_text button.btn-primary{
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: .25rem;
+    background-color: #5542F6;
+    border-color: #5542F6;
+    padding: .5rem 3rem .5rem 0rem;
+    margin-top: 1.938rem;
+    width: 100%;
+}
+.treo-23 .treo_video_call .inner_video_call .video_text h1{
+	color: #2E2C34;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 40px;
+	margin-bottom: 2.5rem;
+}
+.treo-23 .treo_video_call .inner_video_call .video_text span{
+	color: #2E2C34;
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 40px;
+}
+.treo-23 .treo_video_call .inner_video_call .blank_call{
+	position: relative;
+}
+.treo-23 .treo_video_call .inner_video_call .blank_call .call_button {
+    position: absolute;
+    bottom: 2.563rem;
+    width: 100%;
+}
+.treo-23 .treo_video_call .inner_video_call .blank_call .call_button .call_setting {
+    padding: 0 0rem 0 2.688rem;
+}
+.treo-23 .treo_video_call .inner_video_call .blank_call .call_button .call-cut {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    padding-left: 0rem;
+}
+.red_color{
+	background: #FD5755;
+    padding: 0rem;
+    border-radius: 100vmax;
+    width: 4.063rem;
+    height: 4.063rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.normal_back {
+    background: #1d1d1d;
+    width: 4.063rem;
+    height: 4.063rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100vmax;
+}
+.treo-23 .treo_video_call .inner_video_call .blank_call .call_button .call-cut img.off_video {
+	cursor: pointer;
+}
+.treo-23 .treo_video_call .inner_video_call .blank_call .call_button .call_setting .img_setting{
+	cursor: pointer;
+}
+.treo-23 .treo_video_call .inner_video_call .blank_call .call_button .call-cut .img_mic{
+	cursor: pointer;
+}

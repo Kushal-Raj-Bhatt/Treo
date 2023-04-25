@@ -1,0 +1,152 @@
+.treo-32{
+	height: 100%;
+	width: 100%;
+}
+.treo-32 .treo_video_call .inner_video_call .video_show {
+    background-image: url('../images/video-man.png');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.treo-32 .treo_video_call .inner_video_call .video_show p{
+	color: #fff;
+	font-size: 1.375rem;
+	font-weight: 600;
+	line-height: 30px;
+}
+.treo-32 .treo_video_call .inner_video_call .video_text{
+	background-color: #fff;
+	text-align: center;
+	padding: 0 2rem;
+}
+.treo-32 .treo_video_call .inner_video_call .main_video_text{
+	height: 100vh;
+	background-color: #fff;
+}
+.treo-32 .overflow-x-h{
+	overflow-x: hidden;
+}
+.treo-32 .treo_video_call .inner_video_call .video_text button.btn-secondary{
+    color: #5542F6;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: .25rem;
+    border: 1px solid #5542F6;
+    background-color: transparent;
+    border-color: #5542F6;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    margin-top: 1.906rem;
+}
+
+.treo-32 .treo_video_call .inner_video_call .video_text p{
+	color: #89878D;
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 40px;
+	margin-top: 1.946rem;
+}
+
+.treo-32 .treo_video_call .inner_video_call .blank_call{
+	position: relative;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button {
+    position: absolute;
+    bottom: 2.5rem;
+    width: 100%;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call_setting {
+    padding: 0 0rem 0 2.688rem;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call-cut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.375rem;
+    padding-left: 0rem;
+}
+.red_color{
+	background: #FD5755;
+    padding: 0rem;
+    border-radius: 100vmax;
+    width: 5.188rem;
+    height: 5.188rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.normal_back {
+    background: #1d1d1dab;
+    width: 4.063rem;
+    height: 4.063rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100vmax;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call-cut img.off_video {
+	cursor: pointer;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call_setting .img_setting{
+	cursor: pointer;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call-cut .img_mic{
+	cursor: pointer;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call-cut button.btn.btn-secondary.dropdown-toggle {
+    background: transparent;
+    border: none;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call-cut .dropdown-toggle::after{
+	display: none;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call-cut .dropdown-menu{
+   border: none;
+   width: 14.125rem;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 6px #00000029;
+   border-radius: 10px 10px 10px 0px;
+   opacity: 1;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call-cut .dropdown-menu li a:hover{
+	background-color: #fff;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call-cut .dropdown-menu li a.leave_metting{
+   color: #39394D;
+   font-size: 1rem;
+   font-weight: 600;
+   line-height: 22px;
+   border-bottom: 1px solid #EDEDED;
+   padding-bottom: 0.969rem;
+   padding-top: 1.125rem;
+   padding-left: 1.25rem;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .call_button .call-cut .dropdown-menu li a.end_metting{
+   color: #FD5755;
+   font-size: 1rem;
+   font-weight: 600;
+   line-height: 22px;
+   padding-bottom: 1.125rem;
+   padding-top: 0.906rem;
+   padding-left: 1.25rem;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .zoom_icon{
+    cursor: pointer;
+}
+.treo-32 .treo_video_call .inner_video_call .blank_call .zoom_icon img {
+    /*width: 2.25rem;
+    height: 2.25rem;*/
+    position: absolute;
+    background: #fff;
+    right: 2.063rem;
+    top: 1.438rem;
+    border-radius: 0.25rem;
+    padding: .5rem;
+}

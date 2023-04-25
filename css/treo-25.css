@@ -1,0 +1,55 @@
+.treo-25{
+	height: 100%;
+	width: 100%;
+}
+.treo-25 .treo_video_call .inner_video_call .video_show {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.treo-25 .treo_video_call .inner_video_call .video_show p{
+	color: #fff;
+	font-size: 1.375rem;
+	font-weight: 600;
+	line-height: 30px;
+}
+.treo-25 .treo_video_call .inner_video_call .video_text{
+	background-color: #fff;
+	text-align: center;
+	padding: 0 2rem;
+}
+.treo-25 .treo_video_call .inner_video_call .main_video_text{
+	height: 100vh;
+	background-color: #fff;
+}
+.treo-25 .overflow-x-h{
+	overflow-x: hidden;
+}
+.treo-25 .treo_video_call .inner_video_call .video_text button.btn-primary{
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: .25rem;
+    background-color: #5542F6;
+    border-color: #5542F6;
+    padding: .5rem 3rem .5rem 0rem;
+    margin-top: 1.938rem;
+    width: 100%;
+}
+.treo-25 .treo_video_call .inner_video_call .video_text h1{
+	color: #2E2C34;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 40px;
+	margin-bottom: 2.5rem;
+}
+.treo-25 .treo_video_call .inner_video_call .video_text span{
+	color: #2E2C34;
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 40px;
+}

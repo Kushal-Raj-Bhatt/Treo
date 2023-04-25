@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Iconly_Bulk_Category" data-name="Iconly/Bulk/Category" transform="translate(-0.5)">
+    <rect id="Iconly_Bulk_Category_Background_" data-name="Iconly/Bulk/Category (Background)" width="20" height="20" transform="translate(0.5)" fill="none"/>
+    <g id="bar-chart-fill" transform="translate(0.5)">
+      <path id="Path_419" data-name="Path 419" d="M9.2,8A1.6,1.6,0,0,0,7.6,9.6V16a1.6,1.6,0,0,0,1.6,1.6h1.6A1.6,1.6,0,0,0,12.4,16V9.6A1.6,1.6,0,0,0,10.8,8ZM3.6,11.2A1.6,1.6,0,0,0,2,12.8V16a1.6,1.6,0,0,0,1.6,1.6H5.2A1.6,1.6,0,0,0,6.8,16V12.8a1.6,1.6,0,0,0-1.6-1.6Z" transform="translate(0 -0.8)" fill="#d3d9ea" fill-rule="evenodd"/>
+      <path id="Path_420" data-name="Path 420" d="M16,5.6A1.6,1.6,0,0,1,17.6,4h1.6a1.6,1.6,0,0,1,1.6,1.6v9.6a1.6,1.6,0,0,1-1.6,1.6H17.6A1.6,1.6,0,0,1,16,15.2Z" transform="translate(-2.8)" fill="rgba(211,217,234,0.4)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Iconly_Bulk_Category" data-name="Iconly/Bulk/Category" transform="translate(-0.5)">
+    <rect id="Iconly_Bulk_Category_Background_" data-name="Iconly/Bulk/Category (Background)" width="20" height="20" transform="translate(0.5)" fill="none"/>
+    <g id="headphones-fill" transform="translate(0.5 0.4)">
+      <path id="Path_423" data-name="Path 423" d="M6.4,11A2.4,2.4,0,0,0,4,13.4v3.2a2.4,2.4,0,1,0,4.8,0V13.4A2.4,2.4,0,0,0,6.4,11Zm8,0A2.4,2.4,0,0,0,12,13.4v3.2a2.4,2.4,0,1,0,4.8,0V13.4A2.4,2.4,0,0,0,14.4,11Z" transform="translate(-0.4 -1.8)" fill="rgba(211,217,234,0.4)" fill-rule="evenodd"/>
+      <path id="Path_424" data-name="Path 424" d="M10,3.6A6.4,6.4,0,0,0,3.6,10v4H2.8a.8.8,0,0,1-.8-.8V10a8,8,0,0,1,16,0v3.2a.8.8,0,0,1-.8.8h-.8V10A6.4,6.4,0,0,0,10,3.6Z" fill="#d3d9ea" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

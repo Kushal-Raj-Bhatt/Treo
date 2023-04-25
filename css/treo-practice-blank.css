@@ -1,0 +1,18 @@
+.no_practitioners_yet h1{
+   font-size: 1.75rem;
+   line-height: 40px;
+   font-weight: 600;
+   color: #2E2C34;
+}
+.no_practitioners_yet p{
+   font-size: 1rem;
+   line-height: 40px;
+   font-weight: 400;
+   color: #89878D;
+}
+.no_practitioners_yet{
+	padding: 7rem 0;
+}
+.no_practitioners_yet .btn-primary{
+	margin-top: 3rem;
+}

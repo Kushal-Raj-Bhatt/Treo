@@ -1,0 +1,213 @@
+.main_treo-3{
+    margin-bottom: 5rem;
+}
+.main_treo-3 .treo_cards_one {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 1.188rem;
+    margin-bottom: 0rem;
+    margin-left: 2rem;
+    margin-right: 1.125rem;
+    padding: 1.438rem 1.188rem 3rem 1.375rem;
+}
+.main_treo-3 .treo_cards_two {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 1.188rem;
+    margin-bottom: 0rem;
+    margin-left: 1.125rem;
+    margin-right: 2rem;
+    padding: 1.438rem 1.188rem 3rem 1.375rem;
+}
+.main_treo-3 .mt_14{
+  margin-top: 0.875rem;
+}
+
+.main_treo-3 .edit_btn .btn-primary{
+    background-color: var(--button-color);
+    padding: .4rem 1rem;
+    color: #FBFAFC;
+    border: 1px solid var(--button-color);
+    border-radius: 0.25rem;
+}
+.main_treo-3 .profile_text h1{
+    font-size: 1.125rem;
+    color: var(--dark-color);
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 0.063rem;
+}
+.main_treo-3 .profile_text p{
+    font-size: 0.875rem;
+    color: #89878D;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 0.438rem;
+}
+.main_treo-3 .profile_text .box_bp span{
+     font-size: 0.875rem;
+    color: var(--dark-color);
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 0.063rem;
+}
+.main_treo-3 .treo-3_profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.main_treo-3 .profile_text .box_bp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.main_treo-3 .bplus span{
+    font-size: 0.625rem;
+    color: #5542F6;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #F2F0FF;
+    border-radius: 0.313rem;
+    padding: 0.25rem .75rem;
+}
+.main_treo-3 .bplus{
+    margin-bottom: .5rem;
+}
+.main_treo-3 .allergies_info span{
+   font-size: 0.875rem;
+   font-weight: 400;
+   line-height: 22px;
+   color: #89878D;
+}
+.main_treo-3 .allergies_info p{
+   font-size: 0.875rem;
+   font-weight: 600;
+   line-height: 22px;
+   color: #FC123F;
+}
+.main_treo-3 .last_checked_info span{
+   font-size: 0.875rem;
+   font-weight: 400;
+   line-height: 22px;
+   color: #89878D;
+}
+.main_treo-3 .last_checked_info p{
+   font-size: 0.875rem;
+   font-weight: 600;
+   line-height: 22px;
+   color: #2E2C34;
+}
+/*.main_treo-3 .allergies_info{
+    margin-top: 1.438rem;
+}*/
+.main_treo-3 .last_checked_info{
+    margin-top: 1.063rem;
+}
+.main_treo-3 .header_classic p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2E2C34;
+    line-height: 22px;
+}
+.main_treo-3 .header_classic {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.708rem;
+    padding: 1.25rem 1.083rem;
+    border-bottom: 1px solid #EBEAED;
+}
+.main_treo-3 .treo_table_one{
+   font-size: 0.938rem;
+   color: #2E2C34;
+   font-weight: 400;
+   line-height: 21px;
+}
+.main_treo-3 .treo_table_two{
+   font-size: 0.938rem;
+   color: #2E2C34;
+   font-weight: 600;
+   line-height: 21px;
+}
+.main_treo-3 .info_table_data{
+    padding: 0.813rem 0 1rem 1.804rem;
+    border-bottom: 1px solid #EBEAED;
+}
+.main_treo-3 .info_table_data .row .col-8{
+    padding-left: 2.183rem;
+}
+.main_treo-3 .book_new .btn-primary{
+    background-color: var(--button-color);
+    padding: .4rem 1rem;
+    color: #FBFAFC;
+    border: 1px solid var(--button-color);
+    border-radius: 0.25rem;
+}
+.main_treo-3 .book_new{
+    padding: 1.125rem 1.5rem;
+}
+.main_treo-3 .treo_cards_two a{
+    text-decoration: none;
+}
+.left_topnav span:nth-child(2) a {
+    color: var(--dark-text);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.main_treo-3 .btn-primary{
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+
+/*Media Query*/
+@media (max-width: 991px){
+.main_treo-3 .treo_cards_one {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 1.188rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1.704rem 1.188rem 3rem 1.188rem;
+}
+.main_treo-3 .treo_cards_two {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 1.188rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1.438rem 1.188rem 3rem 1.375rem;
+}
+.main_treo-3 .info_table_data .row .col-8 {
+    padding-left: .7rem !important;
+}
+}
+@media (max-width: 767px){
+    .main_treo-3 .treo-3_profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+}
+.main_treo-3 .edit_btn{
+    text-align: left !important;
+    margin-top: 1rem;
+}
+.main_treo-3 .edit_btn .btn-primary {
+    background-color: var(--button-color);
+    padding: 0.4rem 1rem;
+    color: #FBFAFC;
+    border: 1px solid var(--button-color);
+    border-radius: 0.25rem;
+    width: 100%;
+}
+}

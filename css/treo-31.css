@@ -1,0 +1,44 @@
+.treo-31{
+
+}
+@media (min-width: 576px){
+.treo-31 .modal-dialog {
+    max-width: 19.875rem !important;
+    margin: 1.75rem auto;
+}
+}
+
+.treo-31 .modal-dialog .modal-content{
+	text-align: center;
+	border-radius: 1.375rem;
+	padding: 2rem 0;
+}
+.treo-31 .modal-dialog .modal-content .modal-body .wait_connecting img{
+	text-align: center;
+}
+.treo-31 .modal-dialog .modal-content .modal-body .wait_connecting h3{
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #39394D;
+	line-height: 33px;
+	margin-top: 1.375rem;
+}
+.treo-31 .modal-dialog .modal-content .modal-body .wait_connecting p{
+	text-align: center;
+	font-size: 1.125rem;
+	font-weight: 400;
+	color: #89878D;
+	line-height: 24px;
+	margin-top: 1.375rem;
+}
+.treo-31 .modal-dialog .modal-content .modal-body .wait_connecting button.btn-primary{
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: .25rem;
+    background-color: #5542F6;
+    border-color: #5542F6;
+    padding: .5rem 3rem .5rem;
+    margin-top: 2.5rem;
+}

@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Treo-2</title>
+  </head>
+  <body>
+    <div class="treo_wrapper">
+      <ul class="treo_nav_bar" id="sidebarTreo">
+        <a href="#" class="treo-brand">
+          <img src="images/logo/logo.png" alt="logo">
+        </a>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Dashboard.svg" alt="">
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Schedule.svg" alt="">
+            <p>Schedule</p>
+          </a>
+        </li>
+        <li class="treo_nav_item active">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Patients-active.svg" alt="">
+            <p>Patients</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Telehealth.svg" alt="">
+            <p>Telehealth</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Payments.svg" alt="">
+            <p>Payments</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Products.svg" alt="">
+            <p>Products</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Products.svg" alt="">
+            <p>Expenses</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Communications.svg" alt="">
+            <p>Communications</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Reports.svg" alt="">
+            <p>Reports</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Reports.svg" alt="">
+            <p>Activity Log</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Reports.svg" alt="">
+            <p>Release Notes</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Settings.svg" alt="">
+            <p>Settings</p>
+          </a>
+        </li>
+        <li class="treo_nav_item">
+          <a href="#" class="treo_nav_link">
+            <img src="images/ds-icons/Help.svg" alt="">
+            <p>Help</p>
+          </a>
+        </li>
+      </ul>
+      <div class="main_content">
+        <nav class="treo_topnav">
+          <div class="left_topnav">
+            <div class="toggle_icon d-block d-md-none" id="open_mobile_toogle">
+              <img src="images/menu.svg" alt="menu-icon">
+            </div>
+            <p class="d-none d-md-block">
+              <span>Customer</span>
+              <span> / Add Patient</span>
+            </p>
+          </div>
+          <div class="right_topnav">
+            <div class="line_icons_treo">
+              <img src="images/search.png" alt="">
+              <!-- <img src="images/notifications.png" class="bell" alt=""> -->
+              <img src="images/Notification-active.svg" class="bell-active" alt="">
+              <img src="images/mail.png" alt="">
+            </div>
+            <div class="profile_nav">
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="display: flex; align-items: center; text-align: left; gap: 0.75rem;">
+                  <img src="images/Avatar.png" alt="profile">
+                  <p class="d-none d-md-block">Maxbert <span>Admin - Treo</span>
+                  </p>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">Edit Profile</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Settings</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Logout</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="container-fluid px-0">
+          <div class="treo_cards">
+            <div class="card_content">
+              <div class="card_tops">
+                <h1>Add a new patient</h1>
+                <div class="top_button">
+                  <button class="btn btn-primary cancel_button">Cancel</button>
+                  <button class="btn btn-primary theme_button">Save patient</button>
+                </div>
+              </div>
+              <div class="row g-0">
+                <div class="col-12 card_tabs_treo">
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" href="#p1" >Personal Information</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="#p2">Privacy policy</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="#p3">Contact information</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="#p4">Marketing and Promotions</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="#p5">Billing information</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="#p6">Other information</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="#p7">Referral source</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active"  role="tabpanel" aria-labelledby="p-1">
+                      <div class="patient_box">
+                        <div class="row gy-4 gx-0" id="p-1">
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                            <div class="left_side_card">
+                              <h3>Personal Information</h3>
+                              <p>The primary address of this customer.</p>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                            <div class="form_start">
+                              <form>
+                                <div class="patient_form">
+                                  <div class="row gy-3">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="">
+                                        <label for="mr" class="form-label">Title</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>Mr</option>
+                                          <option value="1">mrs</option>
+                                          <option value="2">miss</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="">
+                                        <label for="exampleFormControlInput1" class="form-label">Preferred first name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Stephen">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="mt_30">
+                                        <label for="exampleFormControlInput1" class="form-label">First name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Stephen">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="mt_30">
+                                        <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Smith">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                      <div class="mt_30">
+                                        <label for="mr" class="form-label">Date of birth</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>Day</option>
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                      <div class="mt_30">
+                                        <label for="mr" class="form-label invisible d_nonemobile">Date of birth</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>Month</option>
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                      <div class="mt_30">
+                                        <label for="mr" class="form-label invisible d_nonemobile">Date of birth</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>Year</option>
+                                          <option value="1">2022</option>
+                                          <option value="2">2023</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="mt_30">
+                                        <label for="mr" class="form-label">Sex</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>Male</option>
+                                          <option value="1">FeMale</option>
+                                          <option value="2">Male</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="mt_30">
+                                        <label for="mr" class="form-label">Gender identity</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>Select</option>
+                                          <option value="1">FeMale</option>
+                                          <option value="2">Male</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30 pb_40 bb">
+                                        <label for="mr" class="form-label">Select Pronouns</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>He/Him</option>
+                                          <option value="1">FeMale</option>
+                                          <option value="2">Male</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row gy-4 gx-0 mt_40" id="p2">
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                            <div class="left_side_card">
+                              <h3>Privacy Policy</h3>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                            <div class="form_start">
+                              <form>
+                                <h3>Does the patient consent to your privacy policy?</h3>
+                                <div class="radia_treo">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                                    <label class="form-check-label" for="inlineRadio1">No response</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked="" />
+                                    <label class="form-check-label" for="inlineRadio2">Accepted</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option2" />
+                                    <label class="form-check-label" for="inlineRadio3">Rejected</label>
+                                  </div>
+                                </div>
+                                <div class="bb pb_20"></div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row gy-4 gx-0 mt_40" id="p3">
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                            <div class="left_side_card">
+                              <h3>Contact information</h3>
+                              <p>The primary address of this customer.</p>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                            <div class="form_start">
+                              <form>
+                                <div class="patient_form">
+                                  <div class="row gy-3">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="row g-0">
+                                        <div class="col-9">
+                                          <div class="">
+                                        <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                                        <input type="text" class="form-control mb-2" id="exampleFormControlInput1" placeholder="0000-0000-0000">
+                                      </div>
+                                        </div>
+                                        <div class="col-3">
+                                          <label for="exampleFormControlInput1" class="form-label invisible">Phone</label>
+                                          <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>Mobile</option>
+                                          <option value="1">Mobile</option>
+                                          <option value="2">Mobile</option>
+                                        </select>
+                                        </div>
+                                      </div>
+                                      <a href="#">+ Add another number</a>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <label for="exampleFormControlInput1" class="form-label">Address line</label>
+                                        <textarea class="form-control mb-2" id="exampleFormControlTextarea1" rows="3" placeholder="Text"></textarea>
+                                      </div>
+                                      <a href="#">+ Add address line</a>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <label for="mr" class="form-label">Location</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>Select country</option>
+                                          <option value="1">FeMale</option>
+                                          <option value="2">Male</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <label for="mr" class="form-label">Time zone</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>Use account time zone</option>
+                                          <option value="1">FeMale</option>
+                                          <option value="2">Male</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                      <div class="mt_30">
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>City</option>
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                      <div class="mt_30">
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>State</option>
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                      <div class="mt_30">
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>ZIP Code</option>
+                                          <option value="1">2022</option>
+                                          <option value="2">2023</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="mt_30 pb_40 bb"></div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row gy-4 gx-0 mt_40" id="p4">
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                            <div class="left_side_card">
+                              <h3>Marketing and Promotions</h3>
+                              <p>The primary address of this customer.</p>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                            <div class="form_start">
+                              <form>
+                                <div class="patient_form">
+                                  <div class="row gy-3">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="">
+                                        <label for="exampleFormControlInput1" class="form-label">Automated reminder type</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>SMS & Email</option>
+                                          <option value="1">FeMale</option>
+                                          <option value="2">Male</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <h3>Marketing promotion</h3>
+                                        <p>They will receive any bulk messages you send for marketing purposes.</p>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                          <div class="radia_treo_1">
+                                            <div class="form-check form-check-inline">
+                                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                                              <label class="form-check-label" for="inlineRadio1">SMS</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked="" />
+                                              <label class="form-check-label" for="inlineRadio2">Email</label>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                          <label class="form-check-label check_box_label" for="flexCheckDefault"> Receive booking confirmation emails <span class="d-block">Booking confirmation emails are sent when an appointment is created.</span>
+                                          </label>
+                                        </div>
+                                        <div class="form-check mt-4">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                          <label class="form-check-label check_box_label" for="flexCheckChecked"> Receive booking cancellation emails <span class="d-block">Booking cancellation emails are sent when an appointment is cancelled.</span>
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="mt_30 pb_40 bb"></div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row gy-4 gx-0 mt_40" id="p5">
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                            <div class="left_side_card">
+                              <h3>Billing information</h3>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                            <div class="form_start">
+                              <form>
+                                <div class="patient_form">
+                                  <div class="row gy-3">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="">
+                                        <h4>Opening balance</h4>
+                                        <label for="exampleFormControlInput1" class="form-label">The opening balance for the patient. A positive number is money owing to you. A negative number represents a credit on their account.</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="0.00">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <label for="exampleFormControlInput1" class="form-label">Concession type</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>None</option>
+                                          <option value="1">FeMale</option>
+                                          <option value="2">Male</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <h4>Invoice to</h4>
+                                        <label for="exampleFormControlInput1" class="form-label">This is the default used on new invoices. Patient name and address will be used if left blank.</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder=""></textarea>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="">
+                                        <h4>Email invoice to</h4>
+                                        <label for="exampleFormControlInput1" class="form-label">This is an additional email address you can send invoices to (separate to the patient).</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="0.00">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <h4>Invoice extra information</h4>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Eg. Claim number #00000"></textarea>
+                                      </div>
+                                    </div>
+                                    <div class="mt_30 pb_40 bb"></div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row gy-4 gx-0 mt_40" id="p6">
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                            <div class="left_side_card">
+                              <h3>Other information</h3>
+                              <p>The primary address of this customer.</p>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                            <div class="form_start">
+                              <form>
+                                <div class="patient_form">
+                                  <div class="row gy-3">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="">
+                                        <label for="exampleFormControlInput1" class="form-label">Occupation</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Occupation">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="">
+                                        <label for="exampleFormControlInput1" class="form-label">Emergency contact</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Select">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="mt_30">
+                                        <label for="exampleFormControlInput1" class="form-label">Medicare number</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Medicare number">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                      <div class="mt_30">
+                                        <label for="exampleFormControlInput1" class="form-label">Reference number</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Reference number">
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="mt_30">
+                                        <label for="exampleFormControlInput1" class="form-label mb-2">Referring doctor</label>
+                                      </div>
+                                      <a href="#">+ Add Contact</a>
+                                      <div class="mt_30 pb_40 bb"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row gy-4 gx-0 mt_40" id="p7">
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                            <div class="left_side_card">
+                              <h3>Referral source</h3>
+                              <p>For marketing</p>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                            <div class="form_start">
+                              <form>
+                                <div class="patient_form">
+                                  <div class="row gy-3">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                      <div class="">
+                                        <label for="exampleFormControlInput1" class="form-label">Referral Type</label>
+                                        <select class="form-select" aria-label="Default select example" id="mr">
+                                          <option selected>None</option>
+                                          <option value="1">FeMale</option>
+                                          <option value="2">Male</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function() {
+        $("#open_mobile_toogle").click(function() {
+          $("#sidebarTreo").toggle();
+        });
+      });
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

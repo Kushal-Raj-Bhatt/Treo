@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Iconly_Bulk_Category" data-name="Iconly/Bulk/Category" transform="translate(-0.5 0)">
+    <rect id="Iconly_Bulk_Category_Background_" data-name="Iconly/Bulk/Category (Background)" width="20" height="20" transform="translate(0.5 0)" fill="none"/>
+    <g id="Category" transform="translate(2.5 2)">
+      <path id="Fill_1" data-name="Fill 1" d="M4.74,0A2.039,2.039,0,0,1,6.771,2.048V4.78A2.039,2.039,0,0,1,4.74,6.828H2.031A2.039,2.039,0,0,1,0,4.78V2.048A2.039,2.039,0,0,1,2.031,0Z" transform="translate(9.229)" fill="#d3d9ea" opacity="0.4"/>
+      <path id="Combined_Shape" data-name="Combined Shape" d="M11.26,16a2.04,2.04,0,0,1-2.031-2.049V11.222A2.039,2.039,0,0,1,11.26,9.174h2.71A2.039,2.039,0,0,1,16,11.222v2.732A2.04,2.04,0,0,1,13.969,16ZM2.031,16A2.041,2.041,0,0,1,0,13.953V11.222A2.039,2.039,0,0,1,2.031,9.174H4.74a2.039,2.039,0,0,1,2.031,2.048v2.732A2.04,2.04,0,0,1,4.74,16Zm0-9.174A2.04,2.04,0,0,1,0,4.78V2.048A2.039,2.039,0,0,1,2.031,0H4.74A2.039,2.039,0,0,1,6.771,2.048V4.78A2.039,2.039,0,0,1,4.74,6.828Z" fill="#d3d9ea"/>
+    </g>
+  </g>
+</svg>

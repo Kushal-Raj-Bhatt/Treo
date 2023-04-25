@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Iconly_Bulk_Category" data-name="Iconly/Bulk/Category" transform="translate(-0.5 0)">
+    <rect id="Iconly_Bulk_Category_Background_" data-name="Iconly/Bulk/Category (Background)" width="20" height="20" transform="translate(0.5 0)" fill="none"/>
+    <g id="calendar-event-fill" transform="translate(-0.5)">
+      <path id="Path_411" data-name="Path 411" d="M6.556,3A3.556,3.556,0,0,0,3,6.556v.889H19V6.556A3.556,3.556,0,0,0,15.444,3H6.556Z" transform="translate(0 -0.111)" fill="rgba(211,217,234,0.4)"/>
+      <path id="Path_412" data-name="Path 412" d="M7.444,2a.889.889,0,0,1,.889.889V4.667a.889.889,0,1,1-1.778,0V2.889A.889.889,0,0,1,7.444,2ZM3,9.111v6.222a3.556,3.556,0,0,0,3.556,3.556h8.889A3.556,3.556,0,0,0,19,15.333V9.111Zm11.556,1.778h.889a.889.889,0,0,1,.889.889v.889a.889.889,0,0,1-.889.889h-.889a.889.889,0,0,1-.889-.889v-.889A.889.889,0,0,1,14.556,10.889Zm.889-8a.889.889,0,0,0-1.778,0V4.667a.889.889,0,0,0,1.778,0Z" transform="translate(0)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

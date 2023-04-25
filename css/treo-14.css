@@ -1,0 +1,181 @@
+.treo-14 .start_telly .telly_mian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*.treo-14 .start_telly {
+    margin-top: 5.813rem;
+}*/
+.treo-14 .telly_mian{
+  margin-top: 3rem;
+}
+.treo-14 .start_telly .telly_mian .wrapp_telly h1{
+    color: #2E2C34;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 4.188rem;
+}
+.treo-14 .start_telly .telly_mian .wrapp_telly p{
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #9D9D9E;
+    line-height: 21px;
+    padding: 0 2rem;
+    margin-top: 0.563rem;
+}
+.treo-14 .start_telly .telly_mian .wrapp_telly button.btn-primary{
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: .25rem;
+    background-color: #5542F6;
+    border-color: #5542F6;
+    padding: .5rem 2rem;
+    margin-top: 2.188rem;
+}
+.treo-14 .start_telly .telly_mian .wrapp_telly .code_copy span{
+  color: #1A1C1D;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 22px;
+}
+.treo-14 .start_telly .telly_mian .wrapp_telly .code_copy{
+    margin-top: 1.813rem;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 0.938rem;
+    cursor: pointer;
+}
+.treo-14 .start_telly .upcoming-ta{
+    background-color: #fff;
+    height: 100%;
+}
+.treo-14 .start_telly .upcoming-ta .upcoming-header h3{
+  color: #39394D;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-left: 2.875rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.469rem;
+}
+.treo-14 .start_telly .upcoming-ta .upcoming-header{
+    border-bottom: 1px solid #E0E0E0;
+}
+.treo-14 .overflow-x-h{
+    overflow-x: hidden;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .telly_days h4{
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2E2C34;
+  line-height: 24px;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .call_one p.pink{
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #E544BA;
+  line-height: 22px;
+  background-color: #FBE7FC;
+  border-radius: 1.063rem;
+  text-align: center;
+  padding: .8rem 1rem;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .call_one p.purple{
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #7B44E5;
+  line-height: 22px;
+  background-color: #E7E7FC;
+  border-radius: 1.063rem;
+  text-align: center;
+  padding: .8rem 1rem;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .call_one p.green{
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #44E59F;
+  line-height: 22px;
+  background-color: #E7FCFC;
+  border-radius: 1.063rem;
+  text-align: center;
+  padding: .8rem 1rem;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .call_two h5{
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #2E2C34;
+  line-height: 24px;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .call_two p{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #89878D;
+  line-height: 22px;
+  margin-top: .75rem;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call button.btn-primary{
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: .25rem;
+    background-color: #5542F6;
+    border-color: #5542F6;
+    padding: .5rem 3rem .5rem 0rem;
+    margin-top: 0.686rem;
+    width: 100%;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .call_two span{
+  font-size: .75rem;
+  font-weight: 600;
+  color: #8F95B2;
+  line-height: 16px;
+  margin-top: 0.564rem;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .telly_days{
+    padding-left: 2.875rem;
+    padding-top: 1.156rem;
+    padding-right: 3rem;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .call_data{
+    padding-left: 2.875rem;
+    padding-top: 0.813rem;
+    gap: 1rem;
+    padding-right: 3rem;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call .call_two span img {
+    cursor: pointer;
+}
+.treo-14 .start_telly .upcoming-ta .telly_call{
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 2.219rem;
+}
+@media(min-width: 992px){
+    .treo-14 .start_telly .upcoming-ta {
+    background-color: #fff;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    overflow-y: auto;
+    padding-bottom: 5rem;
+}
+/* width */
+.treo-14 .start_telly .upcoming-ta::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.treo-14 .start_telly .upcoming-ta::-webkit-scrollbar-track {
+  background:  #fff; 
+}
+ 
+/* Handle */
+.treo-14 .start_telly .upcoming-ta::-webkit-scrollbar-thumb {
+  background: var(--button-color); 
+}
+
+/* Handle on hover */
+.treo-14 .start_telly .upcoming-ta::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+}
