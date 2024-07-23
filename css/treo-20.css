@@ -5,7 +5,7 @@
     text-align: center;
 }
 .treo-20 .start_telly {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .treo-20 .start_telly .telly_mian .wrapp_telly h1{
@@ -13,7 +13,7 @@
     font-size: 2rem;
     font-weight: 700;
     line-height: 42px;
-    margin-top: 4.188rem;
+    margin-top: 2rem;
 }
 .treo-20 .start_telly .telly_mian .wrapp_telly p{
     font-weight: 400;
@@ -31,7 +31,7 @@
     background-color: #5542F6;
     border-color: #5542F6;
     padding: .5rem 2rem;
-    margin-top: 2.188rem;
+    margin-top: 2rem;
 }
 .treo-20 .start_telly .telly_mian .wrapp_telly .code_copy span{
   color: #1A1C1D;
@@ -40,7 +40,7 @@
   line-height: 22px;
 }
 .treo-20 .start_telly .telly_mian .wrapp_telly .code_copy{
-    margin-top: 1.813rem;
+    margin-top: 1rem;
     border-bottom: 1px solid #E0E0E0;
     padding-bottom: 0.938rem;
     cursor: pointer;

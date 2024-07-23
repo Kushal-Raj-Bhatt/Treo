@@ -92,6 +92,17 @@
    margin-top: 1.875rem;
    height: 3rem;
 }
+.login_wrapper .treo_login_box .login_end .login_btn a.btn-primary{
+    background: #5542F6;
+    border-radius: 0.25rem;
+    color: #FBFAFC;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 35px;
+    width: 100%;
+    margin-top: 1.875rem;
+    height: 3rem;
+ }
 .login_wrapper .treo_login_box .login_end .create_new p{
 	font-weight: 500;
 	color: #2E2C34;

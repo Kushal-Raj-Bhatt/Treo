@@ -98,11 +98,10 @@ label{
 .form_start {
     padding-left: 3rem;
 }
+}
 .patient_box {
-    padding: 3.25rem 0rem 0 4.938rem;
+    padding: 0px 2rem 2rem;
 }
-}
-
 .treo_nav_bar a.treo-brand{
     text-decoration: none;
     text-align: center;      
@@ -154,9 +153,10 @@ nav.treo_topnav {
     justify-content: space-between;
     align-items: center;
     height: 4.375rem;
-    padding: 0 2rem 0 2.5rem;
+    padding: 0 2rem 0 2rem;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .profile_nav {
     display: flex;
@@ -224,8 +224,8 @@ nav.treo_topnav {
 	margin-top: 1.188rem;
 	margin-bottom: 2.625rem;
 	margin-left: 1.313rem;
-	margin-right: 2rem;
-	padding: 1.704rem 6.688rem 12.469rem 1.188rem;
+	margin-right: 1.5rem;
+	padding: 0px;
 }
 
 .card_content h1{
@@ -252,6 +252,7 @@ li.treo_nav_item.active {
     position: sticky;
     top: 69px;
     background: #fff;
+    padding: 1rem 1rem 0px;
 }
 .top_button {
     display: flex;
