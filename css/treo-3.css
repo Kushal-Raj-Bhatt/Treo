@@ -62,12 +62,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 1rem;
 }
 .main_treo-3 .bplus span{
     font-size: 0.625rem;
-    color: #5542F6;
+    color: #35b6b4;
     line-height: 20px;
     font-weight: 600;
     background-color: #F2F0FF;

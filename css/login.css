@@ -76,13 +76,13 @@
 }
 .login_wrapper .treo_login_box .login_end a.forgot_link{
 	font-size: 0.875rem;
-	color: #5542F6;
+	color: #0082a8;
 	font-weight: 700;
 	line-height: 20px;
 	text-decoration: none;
 }
 .login_wrapper .treo_login_box .login_end .login_btn button.btn-primary{
-   background: #5542F6;
+   background: #0082a8;
    border-radius: 0.25rem;
    color: #FBFAFC;
    font-size: 0.875rem;
@@ -93,7 +93,7 @@
    height: 3rem;
 }
 .login_wrapper .treo_login_box .login_end .login_btn a.btn-primary{
-    background: #5542F6;
+    background: #0082a8;
     border-radius: 0.25rem;
     color: #FBFAFC;
     font-size: 0.875rem;
@@ -112,7 +112,7 @@
 }
 .login_wrapper .treo_login_box .login_end .create_new p a{
 	font-weight: 700;
-	color: #5542F6;
+	color: #0082a8;
 	font-size: 0.875rem;
 	line-height: 20px;
 	text-decoration: none;
@@ -124,7 +124,7 @@
 }
 .login_wrapper .treo_login_box .login_end .form-control:focus {
     background-color: #fff;
-    border-color: #5542F6 !important;
+    border-color: #0082a8 !important;
     outline: 0;
     /*box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);*/
     box-shadow: none;
@@ -277,7 +277,7 @@ input[type="number"] {
    margin-top: 1.5rem;
 }
 .login_wrapper .treo_login_box .login_end .form-check-label.sign_check span a{
-	color: #5542F6;
+	color: #0082a8;
 	font-weight: 500;
 	font-size: .75rem;
 	line-height: 18px;
@@ -299,7 +299,7 @@ input[type="number"] {
 
 /*css reset Password start*/
 .login_wrapper .treo_login_box .login_end a.back_login{
-  color: #5542F6;
+  color: #0082a8;
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 20px;
@@ -333,7 +333,7 @@ input[type="number"] {
 }
 .login_wrapper .treo_login_box .login_end p.resend_code span{
    font-size: 0.875rem;
-   color: #5542F6;
+   color: #0082a8;
    font-weight: 600;
    line-height: 20px;
 }

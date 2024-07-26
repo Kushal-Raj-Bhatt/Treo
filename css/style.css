@@ -1,6 +1,6 @@
 :root{
-	--button-color: #5542F6;
-	--sidebar-color: #1B224E;
+	--button-color: #0082a8;
+	--sidebar-color: #00315f;
 	--dark-text: #2E2C34;
 	--light-text: #84818A;
 	--delete-color: #FA2256;
@@ -110,7 +110,7 @@ label{
 .treo_nav_bar a.treo-brand img {
     width: 98%;
     padding: 1rem .75rem 1.3rem;
-    background: #1B224E 0% 0% no-repeat padding-box;
+    background: #00315f 0% 0% no-repeat padding-box;
 	box-shadow: 0px 3px 6px #00000029;
 	border: 1px solid #00000000;
 	opacity: 1; 

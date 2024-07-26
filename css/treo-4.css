@@ -46,7 +46,7 @@
   color: #2E2C34;
   font-weight: 600;
   line-height: 18px;
-  border-bottom: 2px solid #5542F6;
+  border-bottom: 2px solid #35b6b4;
 }
 .patients_s4 .treo_cards_one .treo_tabs4 p.allpatientsone{
   background-color: #EBEAED;
@@ -105,8 +105,8 @@
 }
 .patients_s4 .treo_cards_two .tow_inner .view_profile_btn button.vp_button{
     background: transparent;
-    color: #5542F6;
-    border: 1px solid #5542F6;
+    color: #35b6b4;
+    border: 1px solid #35b6b4;
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 20px;
@@ -115,8 +115,8 @@
 }
 .patients_s4 .view_profile_btn button.vp_button{
     background: transparent;
-    color: #5542F6;
-    border: 1px solid #5542F6;
+    color: #35b6b4;
+    border: 1px solid #35b6b4;
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 20px;
@@ -295,7 +295,7 @@
 .peanut_allergy a{
     font-weight: 600;
     font-size: .75rem;
-    color: #5542F6;
+    color: #35b6b4;
     line-height: 20px;
 }
 

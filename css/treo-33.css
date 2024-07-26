@@ -15,13 +15,13 @@
 	overflow-x: hidden;
 }
 .treo-33 .treo_video_call .inner_video_call .video_text button.btn-secondary{
-    color: #5542F6;
+    color: #35b6b4;
     font-size: 0.875rem;
     font-weight: 600;
     border-radius: .25rem;
     border: 1px solid #E0E0E0;
     background-color: transparent;
-    border-color: #5542F6;
+    border-color: #35b6b4;
     padding: .5rem 3rem .5rem 3rem;
     margin-top: 2.5rem;
 }
@@ -38,8 +38,8 @@
     font-size: 0.875rem;
     font-weight: 600;
     border-radius: .25rem;
-    background-color: #5542F6;
-    border-color: #5542F6;
+    background-color: #35b6b4;
+    border-color: #35b6b4;
     padding: .5rem 3rem .5rem 3rem;
     margin-top: 2.5rem;
 }

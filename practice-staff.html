@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="css/dashboard.css" rel="stylesheet">
     <link href="css/treo-48.css" rel="stylesheet">
-    <title>Treo-48</title>
+    <title>Dr. Murphy - Practice Staff</title>
   </head>
   <body>
     <div class="treo_wrapper">
@@ -17,7 +17,7 @@
         <a href="dashboard.html" class="treo-brand">
           <img src="images/logo/logo.png" alt="logo">
         </a>
-        <li class="treo_nav_item active">
+        <li class="treo_nav_item">
           <a href="dashboard.html" class="treo_nav_link">
             <img src="images/ds-icons/Dashboard.svg" alt="">
             <p>Dashboard</p>
@@ -83,7 +83,7 @@
             <p>Release Notes</p>
           </a>
         </li>
-        <li class="treo_nav_item">
+        <li class="treo_nav_item active">
           <a href="practice-details.html" class="treo_nav_link">
             <img src="images/ds-icons/Settings.svg" alt="">
             <p>Settings</p>
@@ -118,7 +118,7 @@
               <div class="dropdown">
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="display: flex; align-items: center; text-align: left; gap: 0.75rem;">
                   <img src="images/Avatar.png" alt="profile">
-                  <p class="d-none d-md-block">Maxbert <span>Admin - Treo</span>
+                  <p class="d-none d-md-block">Maxbert <span>Admin - Dr. Murphy</span>
                   </p>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -145,10 +145,10 @@
                   <div class="treo_setting_nav">
                     <ul>
                       <li class="setting_li">
-                        <a href=""><img src="images/Practice Details.svg" alt=""><span>Practice Details</span></a>
+                        <a href="practice-details.html"><img src="images/Practice Details.svg" alt=""><span>Practice Details</span></a>
                       </li>
                       <li class="setting_li active">
-                        <a href=""><img src="images/Practice Staff-atc.svg" alt=""><span>Practice Staff</span></a>
+                        <a href="practice-staff.html"><img src="images/Practice Staff-atc.svg" alt=""><span>Practice Staff</span></a>
                       </li>
                       <li class="setting_li">
                         <a href=""><img src="images/Calendar.svg" alt=""><span>Calendar</span></a>
@@ -172,10 +172,10 @@
               <div class="col-12 col-sm-12 col-md-12 col-lg-10">
                 <div class="treo_cards">
                   <div class="row g-0 plr_25">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5">
                       <h1>Practice Staff</h1>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7">
                       <div class="row g-0">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                           <div class="treo_two_btn">
@@ -327,7 +327,59 @@
                                     </table>
                                   </div>
                                 </div>
-                                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Treo</div>
+                                <div class="tab-pane" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                  <div class="treo_48_doctor">
+                                    <table class="table table-hover table-borderless">
+                                      <thead>
+                                        <tr>
+                                          <th>NAME</th>
+                                          <th>ACCESS TYPE</th>
+                                          <th>NOTIFICATIONS</th>
+                                          <!-- <th style="visibility: hidden;">NOTIFICATIONS</th> -->
+                                          <th>ACTION</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>Rohit Verma</td>
+                                          <td>FRONT DESK
+                                          <span>Last Accessed 5 hours ago</span>
+                                          </td>
+                                          <td>Daily Schedule</td>
+                                         <!--  <td style="visibility: hidden;">Daily Schedule</td> -->
+                                          <td class="text-start" style="text-align: left;"><div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <img src="images/edit.png" alt="">
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                              <li><a class="dropdown-item" href="#">Edit</a></li>
+                                              <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                          </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>John H. Pannell</td>
+                                          <td>FRONT DESK
+                                          <span>Last Accessed 5 hours ago</span>
+                                          </td>
+                                          <td>Daily Schedule</td>
+                                          <!-- <td style="visibility: hidden;">Daily Schedule</td> -->
+                                          <td class="text-start" style="text-align: left;"><div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <img src="images/edit.png" alt="">
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                              <li><a class="dropdown-item" href="#">Edit</a></li>
+                                              <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                          </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
                               </div>
                            </div>
                         </div>
