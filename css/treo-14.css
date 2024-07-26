@@ -145,6 +145,7 @@
     padding-top: 0.813rem;
     gap: 1rem;
     padding-right: 3rem;
+    flex-wrap: wrap;
 }
 .treo-14 .start_telly .upcoming-ta .telly_call .call_two span img {
     cursor: pointer;

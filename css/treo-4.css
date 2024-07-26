@@ -439,7 +439,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
-    margin-right: 2em;
+    margin-right: 1em;
     padding: 1.438rem 0rem 3rem 0rem;
     height: 100%;
 }
@@ -450,8 +450,12 @@
     margin-top: 2rem;
     margin-bottom: .5rem;
     margin-left: 1rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     padding: 0.4rem 1.188rem 3rem 1.375rem;
+}
+.text-end {
+    text-align: right !important;
+    margin-top: 2rem;
 }
 .left_topnav {
     flex: .9;
