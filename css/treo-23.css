@@ -1,7 +1,12 @@
 html, body {
     height: 100%;
     margin: 0;
-  }
+}
+@media(min-width:992px){
+    html, body {
+        overflow-y:hidden
+    } 
+}
 .treo-23{
 	height: 100%;
 	width: 100%;
@@ -27,7 +32,7 @@ html, body {
 }
 .treo-23 .treo_video_call .inner_video_call .main_video_text{
 	background-color: #fff;
-    height: 88vh;
+    height: 100vh;
 }
 .treo-23 .overflow-x-h{
 	overflow-x: hidden;
@@ -60,11 +65,11 @@ html, body {
 	position: relative;
     background:#000;
     padding: 2rem 0px;
-    height: 88vh;
+    height: 100vh;
 }
 .treo-23 .treo_video_call .inner_video_call .blank_call .call_button {
     position: absolute;
-    bottom: 2.563rem;
+    bottom: 5.563rem;
     width: 100%;
 }
 .treo-23 .treo_video_call .inner_video_call .blank_call .call_button .call_setting {
