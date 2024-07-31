@@ -1,6 +1,3 @@
-.treo-31{
-
-}
 @media (min-width: 576px){
 .treo-31 .modal-dialog {
     max-width: 19.875rem !important;
@@ -42,3 +39,63 @@
     padding: .5rem 3rem .5rem;
     margin-top: 2.5rem;
 }
+
+/* Layout Practice Start*/
+.main-container{
+	margin: .5rem;
+}
+.flex-container{
+	margin-block: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+
+}
+.flex-container > *{
+	border: 1px solid #000;
+	padding: 1rem;
+	/* flex: 1 1 200px; */
+	flex: 1;
+}
+.grid-container{
+	margin-block: 1rem;
+	display: grid;
+	gap: .5rem;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+.grid-container > *{
+	border: 1px solid #000;
+	padding: 1rem;
+}
+.main-wrap{
+	border: 3px solid lightgreen;
+	min-height: 100vh;
+	min-height: 100dvh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+.header-wrap{
+	padding: 1rem;
+	background-color: blue;
+	color: #fff;
+	text-align: center;
+}
+.header-wrap h2{
+	font-size: 2.5rem;
+}
+.footer-wrap{
+	padding: 1rem;
+	background-color: blue;
+	color: #fff;
+	text-align: center;
+}
+.box-wrap{
+	padding: 2rem 1rem;
+	background:#000;
+	text-align: center;
+	color: #fff;
+}
+
+
+/* Layout Practice End*/

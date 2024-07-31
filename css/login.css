@@ -144,6 +144,13 @@
     margin-left: 0rem;
 
 }
+.sponsor-section .sponsor-wrap .sponsor-item img {
+    height: 135px;
+    width: 135px;
+    object-fit: cover;
+    transform-origin: left;
+    object-position: center;
+}
 /*.login_wrapper .treo_login_box .login_start .img_log img {
     margin-left: -2.5rem;
 }*/
